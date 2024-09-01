@@ -33,7 +33,7 @@ COPY ecosystem.config.js .
 
 USER node
 
-EXPOSE 5513
+EXPOSE 4000
 
 CMD ["pm2-runtime", "start", "ecosystem.config.js"]
 
