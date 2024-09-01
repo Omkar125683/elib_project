@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon server.ts",
     "build": "tsc",
-    "docker:publish": " sudo docker build -t omkarbagal18/elib:v3 --platform linux/amd64 . && sudo docker push omkarbagal18/elib:v3"
+    "docker:publish": " sudo docker build -t omkarbagal18/elib:v3 --platform linux/amd64 . && sudo docker push omkarbagal18/elib:v3",
+    "start": "node dist/server.js"
   },
   "keywords": [
     "rest",
